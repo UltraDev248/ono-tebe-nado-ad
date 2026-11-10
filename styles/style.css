@@ -1,1 +1,46 @@
-/* место для вашего кода */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.address {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 240px;
+    font-size: 18px;
+    line-height: 24.3px;
+}
+
+.adress a {
+    text-decoration: underline;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 20px;
+}
+
+.header__menu-item:first-child {
+    list-style: none;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+.header__address {
+    
+}
